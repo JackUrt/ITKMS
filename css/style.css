@@ -1,0 +1,242 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/*header*/
+.clear{
+  clear: both;
+}
+
+header{
+  background: linear-gradient(rgb(94, 62, 161),#4c3282);
+}
+
+.nav ul{
+  padding: 30px 0 30px 35%;
+  background: #272626;
+  text-align: center;
+}
+
+.nav ul li{
+  float: left;
+  list-style-type: none;
+  margin-right: 80px;
+  font-size: 28px;
+  width: 120px;
+  height: 40px;
+  line-height: 35px;
+  font-family: "Big Shoulders Display", cursive;
+}
+
+.nav li:hover{
+  background-color: #c32525;
+}
+
+li a{
+  text-decoration: none;
+  color: white;
+}
+
+.logo{
+  font-family: 'Sacramento', cursive;
+  font-size: 23px;
+}
+
+.logo h2{
+  font-weight: normal;
+  color: white;
+  padding: 30px;
+}
+/*finHeader*/
+
+/*presentation*/
+section.presentation{
+  background-color: #181818;
+  width: 100%;
+}
+
+section.presentation .showcase{
+  padding: 50px;
+}
+
+section.presentation .showcase-text{
+    margin-left: 15%;
+    padding-top: 10%;
+    font-family: 'Big Shoulders Display', cursive;
+}
+section.presentation h2{
+  color: #c32525;
+  font-size: 36px;
+}
+
+section.presentation p{
+  color: white;
+  padding-top: 60px;
+  font-size: 28px;
+}
+
+section.presentation .showcase-img{
+  width: 400px;
+  height: 520px;
+  float: right;
+  background-size: contain;
+  background-image: url('../images/d.png');
+  background-size: 100% 100%;
+  position: relative;
+  top: -192px;
+  padding-right: 30%;
+}
+
+/*finPresentation*/
+
+/*menu*/
+section.menu{
+  background-color: #d6d3d3;
+  width: 100%;
+  padding: 3%;
+}
+
+section.menu > h2{
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 50px;
+  text-align: center;
+}
+section.menu .pedido{
+  width: calc(100% / 3);
+  float: left;
+  margin-top: 33px;
+  padding-left: 5%;
+}
+
+section.menu .pedido h2{
+  font-size: 36px;
+  font-family: 'Sacramento', cursive;
+  color: #c32525;
+}
+
+select.menu .ped-wraper{
+}
+
+section.menu .det-pedido p{
+  padding-top: 5px;
+  font-size: 24px;
+  font-family: 'Big Shoulders Display', cursive;
+}
+
+
+section.menu .det-pedido #value{
+  padding-left: 6%;
+  margin: 10px 10px;
+}
+
+/*finMenu*/
+
+/*galery*/
+section.galery .galery-wraper h2{
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 50px;
+  text-align: center;
+  background-color: #d6d3d3;
+}
+
+.galery-wraper .img1, .img2, .img3, .img4{
+  background-size: 100% 100%;
+  width: 25%;
+  height: 180px;
+  float: left;
+}
+
+.img1{
+    background-image: url('../images/1.png');
+}
+
+.img2{
+    background-image: url('../images/2.png');
+}
+
+.img3{
+    background-image: url('../images/3.png');
+}
+
+.img4{
+    background-image: url('../images/4.png');
+}
+
+.footer{
+  background: linear-gradient(rgb(94, 62, 161),#4c3282);
+  width: 100%;
+  text-align: center;
+}
+
+.footer h2{
+  padding: 10px;
+  color: white;
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 32px;
+}
+
+.footer p{
+  padding: 2px;
+  color: white;
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 18px;
+}
+
+/*finGalery*/
+
+@media screen and (max-width: 1020px){
+  .nav ul{
+    padding: 30px 0 30px 30px;
+    width: 100%;
+  }
+
+  .nav ul li{
+    width: 98%;
+    padding:0 0;
+    text-align: center;
+    margin-right: 0;
+    float: none;
+    margin-top: 20px;
+  }
+
+  .showcase-img{
+    display: block;
+    float: none;
+    top: 0;
+    bottom: -150px;
+    overflow: hidden;
+  }
+
+  .img-wraper{
+    padding: 198px 2% 2% 20%;
+  }
+}
+
+@media screen and (max-width: 480px){
+  .showcase-img{
+    width: 60%;
+    min-width: 475px;
+  }
+}
+
+@media screen and (max-width: 820px){
+  header h2{
+    text-align: center;
+  }
+
+  section.menu .pedido{
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+
+  section.galery .galery-wraper .img1, .img2, .img3, .img4{
+    display: block;
+    width: 55%;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 25%;
+  }
+}
