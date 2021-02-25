@@ -134,6 +134,10 @@ section.menu .det-pedido #value{
 /*finMenu*/
 
 /*galery*/
+section.galery{
+  background-color: #d6d3d3;
+}
+
 section.galery .galery-wraper h2{
   font-family: 'Big Shoulders Display', cursive;
   font-size: 50px;
