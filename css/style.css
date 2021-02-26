@@ -169,21 +169,21 @@ section.galery .galery-wraper h2{
 }
 
 .footer{
-  background: linear-gradient(rgb(94, 62, 161),#4c3282);
+  background: #5a058e;
   width: 100%;
   text-align: center;
 }
 
 .footer h2{
   padding: 10px;
-  color: white;
+  color: #f78109;
   font-family: 'Big Shoulders Display', cursive;
   font-size: 32px;
 }
 
 .footer p{
   padding: 2px;
-  color: white;
+  color: #f78109;
   font-family: 'Big Shoulders Display', cursive;
   font-size: 18px;
 }
