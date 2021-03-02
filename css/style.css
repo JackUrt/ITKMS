@@ -61,11 +61,28 @@ section.presentation .showcase{
   padding: 50px;
 }
 
+@keyframes anim{
+  0%{ left: 0px;}
+
+  50%{ left: 160px;}
+
+  100%{ left: 0px;}
+}
+
+.showcase-img{
+  animation-name: anim;
+  animation-duration: 2s;
+  position: relative;
+  animation-delay: 2s;
+}
+
 section.presentation .showcase-text{
     margin-left: 15%;
     padding-top: 10%;
     font-family: 'Big Shoulders Display', cursive;
+    overflow: hidden;
 }
+
 section.presentation h2{
   color: #c32525;
   font-size: 36px;
@@ -148,8 +165,18 @@ section.galery .galery-wraper h2{
 .galery-wraper .img1, .img2, .img3, .img4{
   background-size: 100% 100%;
   width: 25%;
-  height: 180px;
+  height: 220px;
   float: left;
+}
+.thover{
+    transition: transform .2s;
+    transition: 0.3;
+    overflow: hidden;
+}
+
+.thover :hover{
+  color: rgba(0, 0, 0, 0.658);
+  transform: scale(1.3);
 }
 
 .img1{
