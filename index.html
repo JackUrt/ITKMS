@@ -19,7 +19,7 @@
 
   </head>
   <body>
-    <audio autoplay>
+    <audio autoplay loop>
       <source src="ep.mp3" type="audio/mp3">
     </audio>
 
@@ -28,10 +28,23 @@
         <h2>Eat Till Kill MySelf</h2>
       </div>
     </header>
+
+    <section class="hide-menu">
+      <div class="icone"><img src="images/p.png"></div>
+      <div class="ghost">
+        <ul>
+          <li>Emma</li>
+          <li>Ray</li>
+          <li>Norman</li>
+          <li>Gilda</li>
+        </ul>
+      </div><div class="clear"></div><!--ghost-->
+    </section><!--hide-menu-->
+
     <div class="nav">
       <ul>
         <li><a href="#menu">Menu </a></li>
-        <li><a href="#galery">Galery </a></li>
+        <li><a href="galery.html">Galery </a></li>
         <li><a href="#contact">Contact </a></li>
         <div class="clear"></div>
       </ul>
@@ -120,12 +133,25 @@
       <div class="clear"></div>
     </section><!--galery-->
 
-    <div class="footer">
+    <section class="feedback">
+      <div class="form">
+        <h2>Send us your feedback</h2>
+        <input type="text" name="name" placeholder="Your name">
+        <input type="email" name="email" placeholder="Your email">
+        <textarea name="it" id="msg" placeholder="Your message"></textarea>
+        <input type="submit" value="Send">
+      </div><!--form-->
+    </section><!--feedback-->
+
+    <div class="footer form">
       <h2>Open</h2>
       <p>Monday to Saturday</p>
       <h2 id="contact">Contact us</h2>
       <p>(18) 999360251</p>
-      <div class="clear"></div>
     </div><!--footer-->
+
+    <footer>
+      <h3>Eat Till Kill MySelf is a property of @mateusd7e. ©2021 All Rights Reserved.</h3>
+    </footer>
   </body>
 </html>
