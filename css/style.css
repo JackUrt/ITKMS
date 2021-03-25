@@ -114,16 +114,31 @@ section.presentation .showcase-img{
 /*finPresentation*/
 
 /*menu*/
+button{
+  background-color: #4c3282;
+  border: 0;
+  color: white;
+  border-radius: 15px;
+  padding: 5px;
+  margin: 15px;
+  float: right;
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 18px;
+}
 section.menu{
   background-color: #d6d3d3;
   width: 100%;
   padding: 3%;
+  text-align: center;
 }
 
-section.menu > h2{
+section.menu  h2{
   font-family: 'Big Shoulders Display', cursive;
   font-size: 50px;
-  text-align: center;
+}
+
+#menu{
+  margin-left: 10%;
 }
 section.menu .pedido{
   width: calc(100% / 3);
@@ -158,6 +173,9 @@ section.menu .det-pedido #value{
 /*galery*/
 section.galery{
   background-color: #d6d3d3;
+}
+#galery{
+  padding: 15px;
 }
 
 section.galery .galery-wraper h2{
@@ -383,6 +401,10 @@ footer h3{
     top: 0;
     bottom: -150px;
     overflow: hidden;
+  }
+
+  #menu{
+    text-align: left;
   }
 
   .img-wraper{
