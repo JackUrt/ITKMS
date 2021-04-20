@@ -37,6 +37,7 @@ header{
 
 .nav li:hover{
   background-color: var(--titleColor);
+  border-radius: 22px;
 }
 
 li a{
@@ -153,8 +154,8 @@ section.menu .pedido h2{
   color: var(--titleColor);
 }
 
-select.menu .ped-wraper{
-}
+/* select.menu .ped-wraper{
+} */
 
 section.menu .det-pedido p{
   padding-top: 5px;
